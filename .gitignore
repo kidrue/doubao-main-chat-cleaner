@@ -1,0 +1,20 @@
+# 本地依赖与运行产物
+node_modules/
+test-results/
+playwright-report/
+*.log
+
+# 本地页面快照可能包含聊天内容
+/默认.txt
+/点击了会话的扩展按钮.txt
+/点击了删除选项.txt
+/删除确认框.txt
+/新建文件夹/
+
+# 本地配置与凭据
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
